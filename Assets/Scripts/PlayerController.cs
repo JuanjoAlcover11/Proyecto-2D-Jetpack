@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	Rigidbody body;
+	Rigidbody2D body;
 
 	public bool gameOver = false;
 
@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		body = GetComponent<Rigidbody>();
+		body = GetComponent<Rigidbody2D>();
 	}
 
 	private void FixedUpdate()
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 		
 		if (Input.GetMouseButton(0))
 		{
-			body.AddForce(new Vector3(0, 50, 0), ForceMode.Acceleration);
+			body.AddForce(new Vector3(0, 50, 0), ForceMode2D.Force);
 		}
 		else if (Input.GetMouseButtonUp(0))
 		{
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 		{
 			transform.position = new Vector3(transform.position.x, downRange,
 				transform.position.z);
-			body.AddForce(new Vector3(0, 20, 0), ForceMode.Acceleration);
+			body.AddForce(new Vector3(0, 20, 0), ForceMode2D.Force);
 
 		}
 
@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 		{
 			transform.position = new Vector3(transform.position.x, upRange,
 				transform.position.z);
-			body.AddForce(new Vector3(0, -45, 0), ForceMode.Acceleration);
+			body.AddForce(new Vector3(0, -40, 0), ForceMode2D.Force);
 		}
 	}
 
