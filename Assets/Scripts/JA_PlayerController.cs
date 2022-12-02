@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class PlayerController : MonoBehaviour
+public class JA_PlayerController : MonoBehaviour
 {
 	Rigidbody2D body;
 
@@ -11,7 +12,6 @@ public class PlayerController : MonoBehaviour
 	private float upRange = 4.3f;
 	private float downRange = -4.15f;
 
-	// Use this for initialization
 	void Start()
 	{
 		body = GetComponent<Rigidbody2D>();
@@ -24,9 +24,9 @@ public class PlayerController : MonoBehaviour
 		{
 			body.AddForce(new Vector3(0, 50, 0), ForceMode2D.Force);
 		}
-		else if (Input.GetMouseButtonUp(0))
-		{
-			body.velocity *= 0.25f;
+        else
+        {
+			body.AddForce(new Vector3(0, -10, 0), ForceMode2D.Force);
 		}
 	}
 
