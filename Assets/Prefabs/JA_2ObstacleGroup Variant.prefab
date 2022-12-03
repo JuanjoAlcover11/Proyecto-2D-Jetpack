@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1820369280819550192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2228938923254013735, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_Name
+      value: JA_2ObstacleGroup Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364446667510450640, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.402452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364446667510450640, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.402452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364446667510450640, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.402452
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.330267
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54559946
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192733756964559792, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6167438141685880496, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+--- !u!1 &8484249826349054173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7853534981350240045, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+  m_PrefabInstance: {fileID: 1820369280819550192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5536160237337805120
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484249826349054173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e17cb947c261a844683c15a3a5efe3fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

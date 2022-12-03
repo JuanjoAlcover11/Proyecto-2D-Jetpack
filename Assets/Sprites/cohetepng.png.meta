@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: c18d7e19ca665de4685877258fa15922
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cohetepng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9678b40222b534a8d10cfed890fbcf
+      internalID: -2054073765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 250
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383ce8105ea129144a61df6bf0d41a63
+      internalID: -492752791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 249
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4a4111c3ff8e4d8a8afdfdbd57521
+      internalID: 1618975866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 251
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826030fecc22176439c53588af0ad962
+      internalID: -766507967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e64be0dd2f7706489b956f9dd76d6d3
+      internalID: 426730296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 158
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44e1000c0d0d4943a0328718be4f21d
+      internalID: -1278545972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 160
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57676a0ece02e284bb210dcae98ffd94
+      internalID: -2095629244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 162
+        width: 161
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c4ad7fa769fd6408a1a498a76435b7
+      internalID: 1969366364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 161
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d06a6dc941a1114f88d17920c86ac09
+      internalID: -1477684495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 64
+        width: 161
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465541589587ad6419272806af71d1e3
+      internalID: 1573085794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetepng_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 62
+        width: 161
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed1b7b5fd1c034bb0f892098d0b145
+      internalID: 1790813313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cohetepng_40: -1834559336
+      cohetepng_43: 1499405513
+      cohetepng_17: -152812113
+      cohetepng_0: -2054073765
+      cohetepng_27: -978589835
+      cohetepng_2: 1618975866
+      cohetepng_16: -819002326
+      cohetepng_19: -1243073553
+      cohetepng_28: -1542126140
+      cohetepng_6: -2095629244
+      cohetepng_44: 1322187179
+      cohetepng_24: 84784174
+      cohetepng_48: 58951726
+      cohetepng_5: -1278545972
+      cohetepng_22: 887125408
+      cohetepng_26: 211815327
+      cohetepng_45: 1888603030
+      cohetepng_18: -1484736160
+      cohetepng_62: -1197469061
+      cohetepng_7: 1969366364
+      cohetepng_49: -176221032
+      cohetepng_11: -443449494
+      cohetepng_3: -766507967
+      cohetepng_4: 426730296
+      cohetepng_61: 1449354274
+      cohetepng_60: -656071869
+      cohetepng_54: 1536252671
+      cohetepng_32: -337253039
+      cohetepng_57: -304041336
+      cohetepng_47: 302881257
+      cohetepng_37: 1096040801
+      cohetepng_58: 1065463145
+      cohetepng_39: -1923900298
+      cohetepng_41: -804541200
+      cohetepng_34: -1059614909
+      cohetepng_36: 1064589480
+      cohetepng_63: -548056394
+      cohetepng_8: -1477684495
+      cohetepng_29: 143805852
+      cohetepng_13: -1852140642
+      cohetepng_46: -575265727
+      cohetepng_1: -492752791
+      cohetepng_52: -582413838
+      cohetepng_23: 1942887878
+      cohetepng_12: 681295719
+      cohetepng_55: -1644548318
+      cohetepng_50: -1839300436
+      cohetepng_53: -612052840
+      cohetepng_30: 109149119
+      cohetepng_35: -807161969
+      cohetepng_31: -940563985
+      cohetepng_14: -1294511531
+      cohetepng_51: 85982111
+      cohetepng_21: 1258440442
+      cohetepng_20: 897415867
+      cohetepng_33: -445149848
+      cohetepng_10: 1790813313
+      cohetepng_15: 461988618
+      cohetepng_42: -1919255785
+      cohetepng_9: 1573085794
+      cohetepng_56: -1424269933
+      cohetepng_59: -755081795
+      cohetepng_25: 1300915053
+      cohetepng_38: -1746543511
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,7 +10,7 @@ public class JA_SpawnManager : MonoBehaviour
     public GameObject[] objectPrefabs;
     private float spawnX = 3f;
     private float startDelay = 2f;
-    private float repeatRate = 2f;
+    private float repeatRate = 1f;
     private float randomY;
     private int randomIndex;
 
@@ -23,7 +23,7 @@ public class JA_SpawnManager : MonoBehaviour
 
     public Vector3 RandomSpawnPosition()
     {
-        randomY = Random.Range(-4, 4);
+        randomY = Random.Range(-3, 4);
         return new Vector3(spawnX, randomY, 0);
     }
 
