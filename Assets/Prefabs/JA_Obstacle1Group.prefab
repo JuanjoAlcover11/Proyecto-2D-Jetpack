@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -7400868268507382064}
   m_Layer: 0
   m_Name: JA_Obstacle1Group
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,6 +66,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8159419085764134716}
     m_Modifications:
+    - target: {fileID: -1242933281940818957, guid: 4fe9ec042cddbe944921a6eaae808a1a, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5903463
+      objectReference: {fileID: 0}
+    - target: {fileID: -1242933281940818957, guid: 4fe9ec042cddbe944921a6eaae808a1a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2510591
+      objectReference: {fileID: 0}
+    - target: {fileID: -1242933281940818957, guid: 4fe9ec042cddbe944921a6eaae808a1a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0011367798
+      objectReference: {fileID: 0}
+    - target: {fileID: -1242933281940818957, guid: 4fe9ec042cddbe944921a6eaae808a1a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.008214727
+      objectReference: {fileID: 0}
     - target: {fileID: 6022738338669308032, guid: 4fe9ec042cddbe944921a6eaae808a1a, type: 3}
       propertyPath: m_RootOrder
       value: 0

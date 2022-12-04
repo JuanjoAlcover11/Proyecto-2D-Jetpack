@@ -112,9 +112,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3500625240773919285, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2525959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500625240773919285, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3214858
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500625240773919285, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.3674116
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500625240773919285, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.40185726
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500625240773919285, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6932346621151581261, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
       propertyPath: m_Name
-      value: JA_Rocket
+      value: JA_Rocket Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932346621151581261, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6932346621151581263, guid: 48fc3b355d755d547b01934e8bcba566, type: 3}
       propertyPath: m_RootOrder

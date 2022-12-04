@@ -7,9 +7,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1900102806225555507, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2228938923254013735, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
       propertyPath: m_Name
       value: JA_2ObstacleGroup Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228938923254013735, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4364446667510450640, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
       propertyPath: m_LocalScale.x
@@ -67,8 +75,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7853534981350240045, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6167438141685880496, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
+    - {fileID: -1900102806225555507, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e00e72bb3236c384f812bfc60ede0fe9, type: 3}
 --- !u!1 &8484249826349054173 stripped
 GameObject:
