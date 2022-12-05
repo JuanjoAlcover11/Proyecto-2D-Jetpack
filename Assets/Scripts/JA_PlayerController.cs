@@ -12,9 +12,13 @@ public class JA_PlayerController : MonoBehaviour
 	private float upRange = 4.3f;
 	private float downRange = -4.15f;
 
+
+	private Animator playerAnimator;
+
 	void Start()
 	{
 		body = GetComponent<Rigidbody2D>();
+		playerAnimator = GetComponent<Animator>();
 	}
 
 	private void FixedUpdate()
@@ -23,10 +27,13 @@ public class JA_PlayerController : MonoBehaviour
 		if (Input.GetMouseButton(0))
 		{
 			body.AddForce(new Vector3(0, 50, 0), ForceMode2D.Force);
+			playerAnimator.SetBool("isWalking", false);
+			playerAnimator.SetBool("Jetpack", true);
 		}
         else
         {
 			body.AddForce(new Vector3(0, -10, 0), ForceMode2D.Force);
+			playerAnimator.SetBool("Jetpack", false);
 		}
 	}
 
