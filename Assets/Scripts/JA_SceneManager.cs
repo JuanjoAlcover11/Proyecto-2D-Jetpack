@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 public class JA_SceneManager : MonoBehaviour
 {
     public void Restart()
-    {
+    {//Game scene
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Mainscene");
+        SceneManager.LoadScene("JA_Mainscene");
     }
     public void MainMenu()
-    {
-        SceneManager.LoadScene("Mainmenu");
+    {//Menu scene
+        SceneManager.LoadScene("JA_Mainmenu");
     }
 }

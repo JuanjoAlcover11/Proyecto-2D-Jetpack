@@ -15,7 +15,7 @@ public class JA_MoveBackground : MonoBehaviour
     }
 
     void Update()
-    {
+    {//We wake the ground move and reappear constantly
         if (transform.position.x < startPosition.x - repeateWidth)
         {
             transform.position = startPosition;

@@ -8,34 +8,34 @@ public class JA_PauseMenu : MonoBehaviour
 
     public static bool GameIsPaused = false;
 
-    // Update is called once per frame
+   
     void Update()
     {
-        //Si pulsamos la tecla Esc se activa el panel de Pause
+        //If we press "Esc", the pause panel appears
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
             {
-                //Si ya esta pausado, se reanuda el juego
+                
                 Resume();
             }
             else
-            {
+            {//We stop the game if it's not
                 Pause();
             }
         }
     }
     public void Resume()
-    {
-        PauseMenuUI.SetActive(false);//Se oculta el panel
-        Time.timeScale = 1f;//Se reanuda el tiempo
-        GameIsPaused = false;//Variable booleana igual a false
+    {//The panel disapears and the game continues
+        PauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
     }
 
     void Pause()
-    {
-        PauseMenuUI.SetActive(true);//Se muestra el panel
-        Time.timeScale = 0f;//Se para el tiempo
-        GameIsPaused = true;//Variable booleana igual a true
+    {//The panel shows up and the game stops
+        PauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
     }
 }

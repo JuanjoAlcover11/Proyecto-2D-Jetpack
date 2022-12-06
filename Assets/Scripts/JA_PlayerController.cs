@@ -23,7 +23,7 @@ public class JA_PlayerController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		
+		//When we click, the player goes up
 		if (Input.GetMouseButton(0))
 		{
 			body.AddForce(new Vector3(0, 50, 0), ForceMode2D.Force);
@@ -31,14 +31,14 @@ public class JA_PlayerController : MonoBehaviour
 			playerAnimator.SetBool("Jetpack", true);
 		}
         else
-        {
+        {//If we don't, it goes down
 			body.AddForce(new Vector3(0, -10, 0), ForceMode2D.Force);
 			playerAnimator.SetBool("Jetpack", false);
 		}
 	}
 
     private void Update()
-    {
+    {//Screen limits
 		if (transform.position.y < downRange)
 		{
 			transform.position = new Vector3(transform.position.x, downRange,

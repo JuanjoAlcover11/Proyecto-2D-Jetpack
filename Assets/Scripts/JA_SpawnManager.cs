@@ -31,7 +31,7 @@ public class JA_SpawnManager : MonoBehaviour
     }
 
     private void spawnObstacle()
-    {
+    {//We spawn the objects in a random position 
         randomIndex = Random.Range(0, objectPrefabs.Length);
         if (!JA_playerControllerScript.gameOver)
         {
@@ -39,7 +39,7 @@ public class JA_SpawnManager : MonoBehaviour
         }
     }
     private void spawnCoin()
-    {
+    {//We spawn the coins in a random position 
         if (!JA_playerControllerScript.gameOver)
         {
             Instantiate(coin, RandomSpawnPosition(), coin.transform.rotation);

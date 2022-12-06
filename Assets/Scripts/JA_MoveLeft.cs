@@ -14,7 +14,7 @@ public class JA_MoveLeft : MonoBehaviour
     }
 
     void Update()
-    {
+    {//The object go to the left part of the screen
         if (!playerControllerScript.gameOver)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
